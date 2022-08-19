@@ -11,6 +11,12 @@
 		ECAE90A228B00CAC008DBDEA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAE90A128B00CAC008DBDEA /* ContentView.swift */; };
 		ECAE90A428B00CB0008DBDEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECAE90A328B00CB0008DBDEA /* Assets.xcassets */; };
 		ECAE90A728B00CB0008DBDEA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECAE90A628B00CB0008DBDEA /* Preview Assets.xcassets */; };
+		ECAE90AE28B00D7E008DBDEA /* Ikigai.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAE90AD28B00D7E008DBDEA /* Ikigai.swift */; };
+		ECAE90B028B00F05008DBDEA /* Category1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAE90AF28B00F05008DBDEA /* Category1View.swift */; };
+		ECAE90B228B00F10008DBDEA /* Category2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAE90B128B00F10008DBDEA /* Category2View.swift */; };
+		ECAE90B428B00F1C008DBDEA /* Category3View.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAE90B328B00F1C008DBDEA /* Category3View.swift */; };
+		ECAE90B628B00F2D008DBDEA /* Category4View.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAE90B528B00F2D008DBDEA /* Category4View.swift */; };
+		ECAE90B828B01445008DBDEA /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAE90B728B01445008DBDEA /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		ECAE90A128B00CAC008DBDEA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		ECAE90A328B00CB0008DBDEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ECAE90A628B00CB0008DBDEA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ECAE90AD28B00D7E008DBDEA /* Ikigai.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ikigai.swift; sourceTree = "<group>"; };
+		ECAE90AF28B00F05008DBDEA /* Category1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category1View.swift; sourceTree = "<group>"; };
+		ECAE90B128B00F10008DBDEA /* Category2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category2View.swift; sourceTree = "<group>"; };
+		ECAE90B328B00F1C008DBDEA /* Category3View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category3View.swift; sourceTree = "<group>"; };
+		ECAE90B528B00F2D008DBDEA /* Category4View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category4View.swift; sourceTree = "<group>"; };
+		ECAE90B728B01445008DBDEA /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +63,14 @@
 		ECAE909E28B00CAC008DBDEA /* Ikigai */ = {
 			isa = PBXGroup;
 			children = (
-				ECAE909F28B00CAC008DBDEA /* IkigaiApp.swift */,
+				ECAE90AF28B00F05008DBDEA /* Category1View.swift */,
+				ECAE90B128B00F10008DBDEA /* Category2View.swift */,
+				ECAE90B328B00F1C008DBDEA /* Category3View.swift */,
+				ECAE90B528B00F2D008DBDEA /* Category4View.swift */,
 				ECAE90A128B00CAC008DBDEA /* ContentView.swift */,
+				ECAE90B728B01445008DBDEA /* HomeView.swift */,
+				ECAE90AD28B00D7E008DBDEA /* Ikigai.swift */,
+				ECAE909F28B00CAC008DBDEA /* IkigaiApp.swift */,
 				ECAE90A328B00CB0008DBDEA /* Assets.xcassets */,
 				ECAE90A528B00CB0008DBDEA /* Preview Content */,
 			);
@@ -137,8 +155,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECAE90B028B00F05008DBDEA /* Category1View.swift in Sources */,
 				ECAE90A228B00CAC008DBDEA /* ContentView.swift in Sources */,
+				ECAE90B428B00F1C008DBDEA /* Category3View.swift in Sources */,
+				ECAE90B628B00F2D008DBDEA /* Category4View.swift in Sources */,
 				ECAE90A028B00CAC008DBDEA /* IkigaiApp.swift in Sources */,
+				ECAE90B828B01445008DBDEA /* HomeView.swift in Sources */,
+				ECAE90AE28B00D7E008DBDEA /* Ikigai.swift in Sources */,
+				ECAE90B228B00F10008DBDEA /* Category2View.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
